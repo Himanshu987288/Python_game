@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Digital Lamp Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body data-light="0">
+
+
+<div class="slider">
+  <input type="range" min="0" max="10" value="0" id="lightSlider">
+</div>
+
+
+<div class="lamp">
+  <div class="rope"></div>
+  <div class="top"></div>
+  <div class="bulb"></div>
+  <div class="glow"></div>
+</div>
+
+
+<form class="login" id="loginForm">
+  <input type="text" placeholder="Username" required>
+  <input type="password" placeholder="Password" required>
+  <button type="submit">Login</button>
+</form>
+
+<script src="app.js"></script>
+</body>
+</html>
